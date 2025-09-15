@@ -2918,7 +2918,6 @@ flip_node = NodePath("Character")
 [node name="NicoleHP" type="Node" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
 position = Vector2(103.333, -470)
 scale = Vector2(0.999998, 1)
 shape = SubResource("RectangleShape2D_ixkqr")
@@ -2965,8 +2964,8 @@ offset = Vector2(-180, 573.333)
 [node name="Shoe2" type="Sprite2D" parent="Character/Body"]
 material = SubResource("ShaderMaterial_bdy6j")
 position = Vector2(952.393, 552.956)
-rotation = -0.753869
-scale = Vector2(0.999597, 0.999597)
+rotation = -1.22096
+scale = Vector2(0.999596, 0.999596)
 texture = ExtResource("8_irp3r")
 offset = Vector2(363.764, -1408.17)
 
@@ -3030,7 +3029,7 @@ offset = Vector2(4.56543, 817.873)
 material = SubResource("ShaderMaterial_bdy6j")
 position = Vector2(-229.998, 147.373)
 rotation = 0.569808
-scale = Vector2(1e-05, 1e-05)
+scale = Vector2(9.99566e-06, 9.99566e-06)
 texture = ExtResource("15_34vw0")
 offset = Vector2(-853.896, 589.268)
 
@@ -3118,7 +3117,7 @@ rest = Transform2D(0.973995, 0.226333, -0.226333, 0.973995, 66.9489, 429.542)
 [node name="Ankle2" type="Bone2D" parent="Character/Movements/Hip2/Knee2"]
 position = Vector2(-33.9981, 452.364)
 rotation = -0.112323
-scale = Vector2(0.999836, 0.999836)
+scale = Vector2(0.999833, 0.999833)
 rest = Transform2D(0.991284, -0.130471, 0.130471, 0.991284, -33.9981, 452.364)
 
 [node name="RemoteTransform2D" type="RemoteTransform2D" parent="Character/Movements/Hip2/Knee2/Ankle2"]
